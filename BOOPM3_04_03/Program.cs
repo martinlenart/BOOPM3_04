@@ -32,7 +32,7 @@ namespace BOOPM3_04_03
             //Console.WriteLine(r2.Area());                    //Null Exception
 
             var r2 = new Rectangle() { Height = 100, Width = 200 };
-            if (r1 is Rectangle r4)                             //r1 is Null, but r2 will work
+            if (r2 is Rectangle r4)                             //r1 is Null, but r2 will work
             {
                 Console.WriteLine(r4.GetType());
                 Console.WriteLine(r4.Area);
